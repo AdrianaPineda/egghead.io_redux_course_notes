@@ -153,7 +153,8 @@ However, it would be nice to differentiate between our filter links by showing w
 
 We'll start by using ES6 destructuring inside of the `TodoApp` component to extract `todos` and `visibilityFilter` from the props. Now we can access them directly instead of having to type "`this.props.`" every time.
 
-```JavaScript
+```
+#JavaScript
 class TodoApp extends Component {
   render() {
     const {

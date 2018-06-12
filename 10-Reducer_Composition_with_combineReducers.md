@@ -25,7 +25,7 @@ We can do this:
 const { combineReducers } = Redux; // CDN Redux import
 
 const todoApp = combineReducers({
-  todos: todos,
+  todos: todos, // key is the field of the state object
   visibilityFilter: visibilityFilter
 });
 ```

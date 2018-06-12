@@ -112,7 +112,7 @@ const render = () => {
   )
 };
 
-store.subscribe(render);
+store.subscribe(render); // Subscribe to the store changes and call render whenever the store changes
 render();
 ```
 

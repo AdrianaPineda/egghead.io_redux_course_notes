@@ -79,6 +79,7 @@ const counter = (state = 0, action) => {
 }
 
 const { createStore } = Redux; // Redux CDN import syntax
+// var createStore = Redux.createStore;
 // import { createStore } from 'redux' // npm module syntax
 
 const store = createStore(counter);

@@ -108,7 +108,8 @@ our new `AddTodo` component.
 
 We will also specify our `onAddClick` function to dispatch an action of type `'ADD_TODO'` along with the corresponding `text` and next `id`.
 
-```JavaScript
+```
+#JavaScript
 .
 . // inside `TodoApp`'s `render` method
 .
@@ -194,7 +195,8 @@ const Footer = ({
 #### Adding `Footer` to `TodoApp`
 When adding the `Footer` component into `TodoApp`, we need to pass two props. First, `visibilityFilter` to highlight the active link. The second prop is `onFilterClick`, which will dispatch an action of type `'SET_VISIBILITY_FILTER'` along with the `filter` being clicked.
 
-```JavaScript
+```
+#JavaScript
 .
 . // inside `TodoApp`'s `render` method
 .
